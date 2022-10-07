@@ -1,0 +1,311 @@
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  background-color: powderblue;
+  /* or just margin: 0px; */
+  font-weight: normal;
+  /* font-family: fantasy; */
+  font-size: 1.4em;
+  font-family: "Merriweather", serif;
+}
+h3 {
+  color: #11999E;
+  text-decoration: underline;
+}
+p {
+  line-height: 1.6;
+}
+.carddesc0 {
+  /* clear: left; Anti Float, clear the left margin */
+}
+.carddesc1 {
+  /* clear: right; UP description */
+}
+.cardimg-bike {
+  position: relative; /*be careful with margin */
+  margin-left: 20px !important;
+  /* top: 40px; */
+  float: right; /* WOW */
+}
+.cardimg-hw {
+  position: relative; /*be careful with margin */
+  margin-right: 30px !important;
+  /* top: 40px; */
+  float: left; /* WOW */
+}
+.giphyfixtop {
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  width: 150px;
+  z-index: 2;
+  width: 15%;
+}
+.cardimg {
+  margin: 0;
+  width: 25%;
+}
+.card-row0{
+  line-height: 1;
+  margin: 140px auto 140px auto;
+  position: relative;
+  width: 950px;
+  text-align: left;
+}
+.card-row1{
+  line-height: 1;
+  margin: 140px auto 140px auto;
+  position: relative;
+  width: 950px;
+  text-align: left;
+  /* text-align: right; */
+}
+/*  font-family: 'Merriweather', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Sacramento', cursive; */
+
+.name {
+  color: #66BFBF;
+  font-family: "Sacramento", cursive;
+  font-size: 6rem; /* OR REM: rootem / EM */
+}
+.pro2 {
+  margin-top: 0;
+  /* line-height: 0; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #66BFBF;
+  /* font-size: 1.4rem; */
+}
+.nomargin {
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.cendiv { /*useless */
+  background-color: powderblue;
+}
+.topdiv {
+  margin: 190px auto 0 auto;
+  font-size: 40px;
+  width: 560px;
+  padding-top: 100px;
+  display: block;
+  /* border: solid 10px;
+  padding: 20px; */
+  /* width: 200px;
+  height: 200px; */
+  position: relative;
+  text-align: center;
+  background-color: powderblue;
+}
+.middiv {
+  background-color: green;
+  width: 200px;
+  height:200px;
+  /* border: solid 20px;
+  margin-left: 260px; */
+}
+/* .botdiv {
+  display: inline-block;
+  margin-left: 40%;
+  margin-bottom: 90px;
+  margin-top: 90px;
+  background-color: green;
+  /* border: solid 10px;
+  margin-left: 500px; /
+} */
+ .botdiv *{
+   color: powderblue;
+   font-style: italic !important;
+   font-weight: lighter;
+   font-family: serif !important;
+   margin: 15px;
+   display: inline;
+ }
+a:hover {
+  color: gold;
+}
+.botdiv {
+  background-color: #355764;
+  text-align: center;
+  padding: 60px 60px 30px 60px;
+}
+.top-cloud {
+  position: absolute;
+  right:430px;
+  top: 40px;
+}
+.bot-cloud {
+  width: 300px;
+  left:480px;
+  top: 190px;
+  position: absolute;
+}
+.mountain {
+  margin-top: 0px;
+  position: relative;
+  right: 250px;
+  bottom: 150px;
+  width: 1200px;
+}
+.PRO {
+  text-decoration: underline;
+}
+.faviconpf {
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* copy paste */
+
+hr {
+  border-style: dotted dotted none dotted;
+  /*border-style:none;
+  border-top-style:dotted;
+  and both sides
+  */
+  margin: 100px 0 100px 0;
+  left: calc(50% - (7% / 2));
+  top: 4px;
+  position:relative;
+  border-width:8px;
+  border-color: #A2B5BB;
+  border-spacing: 4px;
+
+/* border: dotted #EAF6F6 6px; */
+
+
+  /*background-color: white;*/
+  height: 0px;
+  width: 7%; /* get-page width and / it */
+  }
+.centerme {
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerme-m {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-right: auto; */
+}
+.centerme-f * {
+  text-align: center;
+  margin: 17px 0;
+  /* margin-right: auto; */
+}
+.centerme-t {
+  text-align: center;
+}
+.centerme-mr {
+  width: 80%;
+  margin-left: 16%;
+  margin-right: auto;
+}
+td {
+  border-width: 10px;
+  border-color: chocolate;
+  border-radius: 20px;
+}
+.tdblue {
+  border-width: 10px;
+  border-color: blue;
+  border-radius: 20px;
+}
+.tdlight {
+  border-width: 2px;
+  border-radius: 22px;
+  border-color: gray;
+}
+.btn {
+  display: block;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 30px #967096;
+  -moz-box-shadow: 0px 0px 30px #967096;
+  box-shadow: 0px 0px 30px #967096;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Dynamic Font: 100% = 16px and 1em (!= <em>) = one time the width of capital M in older days but now 1em = 100% = 16px */
+
+
+/* h1 {
+  color: #7D9D9C;
+  text-shadow: 1px 1px 2px black, 0 0 15px blue, 0 0 2px blue;
+  font-size: 50px;
+}
+h3 {
+  color: #66BFBF;
+}
+h1 {
+  font-family: monospace;
+}
+h2 {
+  font-family: monospace;
+}
+p {
+  font-family: monospace;
+  font-size: 17px;
+}
+.normaltext {
+  font-family: inherit;
+  font-size: 15px;
+} */
+/* * {
+  font-family: "Courier New";
+   Georgia, font-feature-settings: "ss07";
+  font-size: 17px;
+} */
+/* inline: widthh and height auto (text align left is autocss)
+    block: with max height auto
+    inline-block: ***whow***
+    none vs visibility: hidden;
+
+    position
+
+    relative ghost and move from previous placeholder, no pushs of other elements
+
+    static normal
+
+    absolute replace the position after its PARENT, affects the flow of html unlike relative:
+    IF not defined coordinates of XY
+
+    DIV PARENTING
+
+    fixed: absolute but comes with the website together (scrolling)
+    */
