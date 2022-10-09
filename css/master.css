@@ -7,8 +7,21 @@ body{
   /* or just margin: 0px; */
   font-weight: normal;
   /* font-family: fantasy; */
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: "Merriweather", serif;
+}
+#DatesT {
+  padding: 0 50px;
+}
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 0.9em;
+  }
+  .centerme-mr {
+    margin-left: 0 !important;
+    /* width: 0; */
+  }
+
 }
 h3 {
   color: #11999E;
@@ -51,14 +64,14 @@ p {
   line-height: 1;
   margin: 140px auto 140px auto;
   position: relative;
-  width: 950px;
+  /* width: 950px; */
   text-align: left;
 }
 .card-row1{
   line-height: 1;
   margin: 140px auto 140px auto;
   position: relative;
-  width: 950px;
+  /* width: 950px; */
   text-align: left;
   /* text-align: right; */
 }
@@ -71,13 +84,13 @@ p {
 .name {
   color: #66BFBF;
   font-family: "Sacramento", cursive;
-  font-size: 6rem; /* OR REM: rootem / EM */
+  font-size: calc(55px + 2vw); /* OR REM: rootem / EM */
 }
 .pro2 {
   margin-top: 0;
   /* line-height: 0; */
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: calc(20px + 2vw);
 }
 h2 {
   font-size: 3.2rem;
@@ -96,10 +109,11 @@ h2 {
   background-color: powderblue;
 }
 .topdiv {
-  margin: 190px auto 0 auto;
+  margin: 0;
+
   font-size: 40px;
-  width: 560px;
-  padding-top: 100px;
+  /* width: 560px; */
+  padding-top: 240px;
   display: block;
   /* border: solid 10px;
   padding: 20px; */
@@ -142,28 +156,28 @@ a:hover {
   padding: 60px 60px 30px 60px;
 }
 .top-cloud {
-  position: absolute;
-  right:430px;
-  top: 40px;
+  position: relative;
+  right:130px;
+  top: 0px;
 }
 .bot-cloud {
   width: 300px;
-  left:480px;
-  top: 190px;
-  position: absolute;
+  left:20vw;
+  top: 40px;
+  position: relative;
 }
 .mountain {
   margin-top: 0px;
   position: relative;
-  right: 250px;
-  bottom: 150px;
-  width: 1200px;
+  /* right: 250px; */
+  bottom: 10vw;
+  width:90vw;
 }
 .PRO {
   text-decoration: underline;
 }
 .faviconpf {
-  width:50px;
+  width:20vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -211,7 +225,7 @@ hr {
   text-align: center;
 }
 .centerme-mr {
-  width: 80%;
+  /* width: 80%; */
   margin-left: 16%;
   margin-right: auto;
 }
