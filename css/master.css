@@ -57,9 +57,9 @@ p {
   position: fixed;
   right: 50px;
   top: 50px;
-  width: 150px;
   z-index: 2;
   width: 15%;
+  max-width: 165px;
 }
 .cardimg {
   margin: 0;
