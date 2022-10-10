@@ -7,7 +7,7 @@ body{
   /* or just margin: 0px; */
   font-weight: normal;
   /* font-family: fantasy; */
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-family: "Merriweather", serif;
 }
 #DatesT {
@@ -20,7 +20,7 @@ body{
   .btn {
     width: 120px;
     height: 90px;
-    font-size: 16px;
+    font-size: 16px !important;
   }
   .centerme-mr {
     margin-left: 0 !important;
