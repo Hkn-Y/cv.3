@@ -14,7 +14,7 @@ body{
   padding: 0 50px;
 }
 .warning {
-  font-size:0.8rem !important;
+  font-size: 0.8rem !important;
 }
 @media screen and (max-width: 640px) {
   body {
