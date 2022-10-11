@@ -23,6 +23,9 @@ body{
   .warning {
   font-size:0.6rem !important;
   }
+  .botdiv * {
+    margin: 7px !important;
+  }
   .btn {
     width: 120px;
     height: 90px;
