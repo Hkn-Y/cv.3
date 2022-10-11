@@ -13,9 +13,15 @@ body{
 #DatesT {
   padding: 0 50px;
 }
+.warning {
+  font-size:0.8rem;
+}
 @media screen and (max-width: 640px) {
   body {
-    font-size: 0.9em;
+    font-size: 0.9rem;
+  }
+  .warning {
+  font-size:0.6rem !important;
   }
   .btn {
     width: 120px;
